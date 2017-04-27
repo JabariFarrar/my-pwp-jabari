@@ -49,12 +49,12 @@
 
 				<p><strong>Use Case:</strong></p>
 
-				<p>Lester is perusing through LinkedIn using his Mozilla Firefox browser at 7:45 am after searching for local candidates using a few keywords.
-				He knows he has to present a few candidates to the hiring manager by 1:00 pm today in spite of his meetings
+				<p>Lester is perusing through LinkedIn using his Mozilla Firefox browser at 7:45 am searching for local candidates using a few keywords.
+				He knows he has to present a few candidates to the hiring manager by 3:00 pm today in spite of his meetings
 				this morning from 10:00 am to 11:30 am, and has no time to waste.</p>
 
 				<p> Lester has viewed my LinkedIn page and sees a profile with a strong background in chemistry and web development experience.
-				His interest is piqued and he views my Github and personal website links and would like to contact me by phone.</p>
+				His interest is piqued and he views my Github and personal website links and would like to contact me.</p>
 
 	</body>
 
