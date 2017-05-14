@@ -17,6 +17,10 @@
 				<p><em>Portfolio:</em> The portfolio will serve to show potential employers that I am serious about coding and give them examples of my work.</p>
 				<p><em>Contact Me:</em> This will allow potential employers to reach me directly and allow them to enquire.</p>
 
+			<h2>Full Screen Layout:</h2>
+			<img src="https://bootcamp-coders.cnm.edu/~jfarrar1/my-pwp-jabari/public_html/images/fullscreen.png">
+
+
 		</body>
 
 
