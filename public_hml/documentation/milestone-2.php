@@ -23,7 +23,6 @@
 			<h2>Mobile Phone Layout:</h2>
 			<img src="https://bootcamp-coders.cnm.edu/~jfarrar1/my-pwp-jabari/public_html/documentation/images/mobilephone.png">
 
-
 		</body>
 
 
