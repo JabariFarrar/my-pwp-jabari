@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-	<html lang="eng">
+	<html lang="en">
 		<head>
 			<meta charset="UTF-8">
 			<title>PWP Milestone 2alpha</title>
@@ -18,10 +18,10 @@
 				<p><em>Contact Me:</em> This will allow potential employers to reach me directly and allow them to enquire.</p>
 
 			<h2>Full Screen Layout:</h2>
-			<img src="images/fullscreen.png">
+			<img src="images/fullscreen.png" alt = "full screen layout">
 
 			<h2>Mobile Phone Layout:</h2>
-			<img src="images/mobilephone.png">
+			<img src="images/mobilephone.png" alt = "full mobile layout">
 
 		</body>
 
