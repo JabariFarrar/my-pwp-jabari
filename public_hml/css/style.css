@@ -1,0 +1,117 @@
+.name-button {
+	font-family: Calibri;
+	font-size: 30px;
+}
+
+span {
+	font-weight: bold;
+	color: #6f88a7;
+}
+
+.btn {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+p {
+	font-size: 20px;
+}
+
+@media screen and  (min-width: 768px) {
+	.intro-section {
+		background-image: url("../images/snowymountains.jpg") !important;
+		background-size: cover !important;
+		background-repeat: no-repeat !important;
+		background-position: center center !important;
+		color: white;
+		position: relative;
+		height: 100%;
+		padding-top: 380px !important;
+		padding-bottom: 120px !important;
+		text-align: center;
+		background: #fff;
+	}
+}
+
+.welcome-large {
+	font-size: 60px;
+}
+
+.my-photo {
+	padding: 30px;
+	height: 275px;
+	width: 275px;
+}
+
+.section-title {
+	margin-bottom: 0 !important;
+}
+
+.col-md-6 {
+	padding-top: 30px;
+}
+
+h1 {
+	font-family: Calibri;
+}
+
+span {
+	font-weight: bold;
+	color: #6f88a7;
+}
+
+.g-recaptcha > div {
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+	.intro-section {
+		padding-top: 230px !important;
+		padding-bottom: 80px !important;
+		background-image: url("../images/snowymountains.jpg") !important;
+		background-size: 768px !important;
+		background-repeat: no-repeat !important;
+		background-position: center center !important;
+		color: white;
+		position: relative;
+		height: 100%;
+		text-align: center;
+		background: #fff;
+	}
+
+	.name-button {
+		font-size: 20px !important;
+	}
+
+	.my-photo {
+		height: 175px;
+		width: 175px;
+	}
+
+	.thumb {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.welcome-large {
+		font-size: 25px;
+	}
+}
+
+.foot-content {
+	font-size: 12px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	margin-bottom: 0;
+}
+
+.portfolio-content {
+	padding-bottom: 40px;
+}
+
+.thumb-link {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+
