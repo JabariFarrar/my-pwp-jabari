@@ -8,12 +8,28 @@ $(window).scroll(function() {
 });
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-	$('a.page-scroll').bind('click', function(event) {
-		var $anchor = $(this);
+// $(function() {
+// 	$('a.page-scroll').bind('click', function(event) {
+// 		var $anchor = $(this);
+// 		$('html, body').stop().animate({
+// 			scrollTop: $($anchor.attr('href')).offset().top
+// 		}, 1500, 'easeInOutExpo');
+// 		event.preventDefault();
+// 	});
+// });
+
+// below script is taken from: https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
+$(document).ready(function() {
+	$('a[href^="#"]').on('click', function(e) {
+		e.preventDefault();
+
+		var target = this.hash;
+		var $target = $(target);
+
 		$('html, body').stop().animate({
-			scrollTop: $($anchor.attr('href')).offset().top
-		}, 1500, 'easeInOutExpo');
-		event.preventDefault();
+			'scrollTop': $target.offset().top
+		}, 900, 'swing', function() {
+			window.location.hash = target;
+		});
 	});
 });
