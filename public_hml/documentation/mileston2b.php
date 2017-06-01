@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 	<head>
 
@@ -27,15 +27,15 @@
 		<![endif]-->
 
 		<!-- jQuery -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
-		<!-- jQuery Form, Validate, Additional Methods -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js" type="text/javascript"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js" type="text/javascript"></script>
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js"></script>
 
 		<!-- Your JavaScript Form Validator -->
-<!--		<script src="../js/form-validate.js"></script>-->
+		<script src="js/form-validate.js"></script>
 
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -91,10 +91,10 @@
 								<a class="page-scroll" href="#publications">Publications</a>
 							</li>
 							<li>
-								<a class="page-scroll" href="#Portfolio">Portfolio</a>
+								<a class="page-scroll" href="#portfolio">Portfolio</a>
 							</li>
 							<li>
-								<a class="page-scroll" href="#Contact">Contact</a>
+								<a class="page-scroll" href="#contact">Contact</a>
 							</li>
 							<li>
 								<a href="https://twitter.com/jofarrar_1" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
@@ -151,26 +151,26 @@
 							<h1 class="section-title"><span>Experience</span></h1>
 							<ul>
 								<li>
-									Mayne Pharma, Greenville, NC
+									Mayne Pharma, Greenville, NC:
 									Performed method development, method validation, method transfers and analytical
 									testing in support of pharmaceutical product development and pharmaceutical
 									manufacturing using HPLC, UPLC and GC.
 								</li>
 
 								<li>
-									Northrop Grumman Aerospace Systems, Redondo Beach, CA
+									Northrop Grumman Aerospace Systems, Redondo Beach, CA:
 									Performed chemical and material analyses, interpretation and consultation in support
 									of military and scientific programs at Northrop Grumman.
 								</li>
 								<li>
-									Procter & Gamble (Contractor), Cincinnati OH
+									Procter & Gamble (Contractor), Cincinnati OH:
 									Collaborated with members of P&G’s Fabric and Home Care Technical Division in an
 									effort to determine the best modified starch biopolymers, a cost-saving renewable
 									resource, to use in place of expensive petroleum-based polymers in laundry detergent
 									formulations.
 								</li>
 								<li>
-									Research Triangle Institute International, RTP, NC
+									Research Triangle Institute International, RTP, NC:
 									Provided analytical separations support for ongoing National Toxicology Programs
 									conducted at Research Triangle Institute International.
 								</li>
@@ -199,8 +199,7 @@
 								<li>Dissertation: AFM and XPS Data Correlation</li>
 
 								<li>Kateryna Artyushkova, Jeffrey Fenton, Jabari Farrar and Julia Fulghum Multitechnique Fusion
-									of
-									Imaging Data for Heterogeneous Materials, Edited by Yufeng Zheng, June 2011
+									of Imaging Data for Heterogeneous Materials, Edited by Yufeng Zheng, June 2011
 								</li>
 
 								<li>Sergey Dubin, Scott Gilje , Kan Wang, Vincent C. Tung, Kitty Cha, Anthony S. Hall,
@@ -234,6 +233,94 @@
 				</div>
 
 			</section>
-		</main>
-	</body>
-</html>
+
+
+<!--Portfolio Section-->
+			<section id="portfolio" class="portfolio section">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12">
+								<h1 class="section-title"><span>Portfolio</span></h1>
+								<a target ="_blank" href="https://petRescueAbq.com" class="img-rounded">
+<!--									<img-->
+								</a>
+								<h2>PetRescueABQ</h2>
+								<p class="portfolio-content">
+									PetRescueAbq is website that allows organizations to post shelter animals that are in critical
+									need for adoption or fostering.  A potential adopter or fosterer can search the website and find an animal
+									that matches their search criteria. PetRescueAbq wants to find a forever-home for every animal
+									posted on the website.
+								</p>
+							</div>
+						</div>
+					</div>
+			</section>
+
+			<!--Begin Contact Form-->
+			<section id="contact" class="contact-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<h1 class="section"><span>Contact</span></h1>
+						</div>
+					</div>
+			</div>
+			<form id="contact" action="php/mailer.php" method="post">
+				<div class="form-group">
+					<label for="name">Name <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="email">Email <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="subject">Subject</label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-pencil" aria-hidden="true"></i>
+						</div>
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="message">Message <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-comment" aria-hidden="true"></i>
+						</div>
+						<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
+					</div>
+				</div>
+
+				<!-- reCAPTCHA -->
+				<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+
+				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+				<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+			</form>
+
+			<!--empty area for form error/success output-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="output-area"></div>
+				</div>
+			</div>
+		</section>
+					</main>
+				</body>
+			</html>
+
+
+
+
