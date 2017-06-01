@@ -27,7 +27,7 @@
 		<![endif]-->
 
 		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js"></script>
@@ -265,7 +265,7 @@
 						</div>
 					</div>
 				</div>
-				<form id="contact" action="php/mailer.php" method="post">
+				<form id="contact" action="php/mailer.php" method="POST">
 					<div class="form-group">
 						<label for="name">Name <span class="text-danger">*</span></label>
 						<div class="input-group">
@@ -303,8 +303,8 @@
 						</div>
 					</div>
 
-					<!-- reCAPTCHA -->
-					<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+					<!-- Google reCAPTCHA -->
+					<div class="g-recaptcha" data-sitekey="6LeXtiMUAAAAADswq1eKJgSJmE-sovBEc9FvjAmW"></div>
 
 					<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 					<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
