@@ -31,3 +31,7 @@ Overall very nice work here - I look forward to seeing your project take shape! 
 ### Edits &amp; Suggestions
 - Don't forget to use the `alt` attribute on your `<img>` tags.
 - The correct `lang` value on your `<html>` tag is `en` not `eng.`
+
+## Milestone 2b Feedback
+
+It's looking great, good job! Feedback has been sent via slack.
