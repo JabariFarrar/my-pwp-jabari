@@ -26,38 +26,6 @@ html {
 		padding: 0;
 	}
 
-}
-/* media query adapted from https://coderwall.com/p/wpjw4w/change-the-bootstrap-navbar-breakpoint*/
-@media (max-width: 991px) {
-	.navbar-header {
-		float: none;
-	}
-	.navbar-toggle {
-		display: block;
-	}
-	.navbar-collapse {
-		border-top: 1px solid transparent;
-		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-	}
-	.navbar-collapse.collapse {
-		display: none!important;
-	}
-	.navbar-nav {
-		float: none!important;
-		margin: 7.5px -15px;
-	}
-	.navbar-nav>li {
-		float: none;
-	}
-	.navbar-nav>li>a {
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-}
-
-
-
-
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
@@ -74,9 +42,10 @@ of those sections to manage the look and feel of the site. */
 	background: #eee;
 }
 
-.services-section, .intro-section, {
+.services-section, .intro-section {
 	background: #fff;
 }
-#about{
+
+#about {
 	padding-top: 150px;
 }
