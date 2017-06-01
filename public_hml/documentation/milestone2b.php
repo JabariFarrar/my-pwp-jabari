@@ -69,9 +69,9 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-							<div class="name-button">
-								<a class="navbar-brand page-scroll name" href="#page-top"><span>Jabari O. Farrar</span></a>
-							</div>
+						<div class="name-button">
+							<a class="navbar-brand page-scroll name" href="#page-top"><span>Jabari O. Farrar</span></a>
+						</div>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -235,25 +235,25 @@
 			</section>
 
 
-<!--Portfolio Section-->
+			<!--Portfolio Section-->
 			<section id="portfolio" class="portfolio section">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12">
-								<h1 class="section-title"><span>Portfolio</span></h1>
-								<a target ="_blank" href="https://petRescueAbq.com" class="img-rounded">
-<!--									<img-->
-								</a>
-								<h2>PetRescueABQ</h2>
-								<p class="portfolio-content">
-									PetRescueAbq is website that allows organizations to post shelter animals that are in critical
-									need for adoption or fostering.  A potential adopter or fosterer can search the website and find an animal
-									that matches their search criteria. PetRescueAbq wants to find a forever-home for every animal
-									posted on the website.
-								</p>
-							</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<h1 class="section-title"><span>Portfolio</span></h1>
+							<a target ="_blank" href="https://petRescueAbq.com" class="img-rounded">
+								<!--									<img-->
+							</a>
+							<h2>PetRescueABQ</h2>
+							<p class="portfolio-content">
+								PetRescueAbq is website that allows organizations to post shelter animals that are in critical
+								need for adoption or fostering.  A potential adopter or fosterer can search the website and find an animal
+								that matches their search criteria. PetRescueAbq wants to find a forever-home for every animal
+								posted on the website.
+							</p>
 						</div>
 					</div>
+				</div>
 			</section>
 
 			<!--Begin Contact Form-->
@@ -264,63 +264,59 @@
 							<h1 class="section"><span>Contact</span></h1>
 						</div>
 					</div>
-			</div>
-			<form id="contact" action="php/mailer.php" method="post">
-				<div class="form-group">
-					<label for="name">Name <span class="text-danger">*</span></label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-user" aria-hidden="true"></i>
+				</div>
+				<form id="contact" action="php/mailer.php" method="post">
+					<div class="form-group">
+						<label for="name">Name <span class="text-danger">*</span></label>
+						<div class="input-group">
+							<div class="input-group-addon">
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+							<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 						</div>
-						<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email <span class="text-danger">*</span></label>
+						<div class="input-group">
+							<div class="input-group-addon">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</div>
+							<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="subject">Subject</label>
+						<div class="input-group">
+							<div class="input-group-addon">
+								<i class="fa fa-pencil" aria-hidden="true"></i>
+							</div>
+							<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="message">Message <span class="text-danger">*</span></label>
+						<div class="input-group">
+							<div class="input-group-addon">
+								<i class="fa fa-comment" aria-hidden="true"></i>
+							</div>
+							<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
+						</div>
+					</div>
+
+					<!-- reCAPTCHA -->
+					<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+
+					<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+					<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+				</form>
+
+				<!--empty area for form error/success output-->
+				<div class="row">
+					<div class="col-xs-12">
+						<div id="output-area"></div>
 					</div>
 				</div>
-				<div class="form-group">
-					<label for="email">Email <span class="text-danger">*</span></label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</div>
-						<input type="email" class="form-control" id="email" name="email" placeholder="Email">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="subject">Subject</label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-pencil" aria-hidden="true"></i>
-						</div>
-						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="message">Message <span class="text-danger">*</span></label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-comment" aria-hidden="true"></i>
-						</div>
-						<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
-					</div>
-				</div>
-
-				<!-- reCAPTCHA -->
-				<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
-
-				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-				<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-			</form>
-
-			<!--empty area for form error/success output-->
-			<div class="row">
-				<div class="col-xs-12">
-					<div id="output-area"></div>
-				</div>
-			</div>
-		</section>
-					</main>
-				</body>
-			</html>
-
-
-
-
+			</section>
+		</main>
+	</body>
+</html>
