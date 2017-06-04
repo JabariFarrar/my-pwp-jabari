@@ -225,7 +225,7 @@
 								</li>
 								<li>
 									Lavrich, R. J.; Farrar, Jabari O.; Tubergen, Michael J., "Heavy-Atom Structure of Alaninamide
-									from Rotational Spectroscopy" The Journal of Physical Chemistry, 103 (24), 4659–4663, 1999
+									from Rotational Spectroscopy" The Journal of Physical Chemistry A, 103 (24), 4659–4663, 1999
 								</li>
 
 							</ul>
