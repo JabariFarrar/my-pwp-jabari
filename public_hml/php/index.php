@@ -124,7 +124,7 @@
 
 							<h1 class="section-title"><span>About</span></h1>
 							<h2> Jabari O. Farrar Chemist/Software Developer</h2>
-							<img class="my-photo img-responsive" src="../images/computerTableCropped.png"/>
+							<img class="desk img-responsive" src="../images/computerTableCropped.png"/>
 
 							<p id="imgtext">Hello and welcome to my webpage. My name is Jabari Farrar and I have a passion for science.
 								I have a PhD in Analytical Chemistry, specifically surface analysis of heterogeneous polymer
