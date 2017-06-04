@@ -196,7 +196,7 @@
 							<h1 class="section-title"><span> Publications </span></h1>
 
 							<ul>
-								<li>Dissertation: AFM and XPS Data Correlation</li>
+								<li>Dissertation: Atomic Force Microscopy and X-ray Photoelectron Spectroscopy Data Correlation</li>
 
 								<li>Kateryna Artyushkova, Jeffrey Fenton, Jabari Farrar and Julia Fulghum Multitechnique Fusion
 									of Imaging Data for Heterogeneous Materials, Edited by Yufeng Zheng, June 2011
@@ -222,6 +222,10 @@
 								<li>Artyushkova K., Ferryman A., Farrar, J., Fulghum J.E., “Laboratory XPS
 									imaging:Improved procedures and data analysis” Journal of Surface Analysis, 9(3),
 									332-338, 2002
+								</li>
+								<li>
+									Lavrich, R. J.; Farrar, Jabari O.; Tubergen, Michael J., "Heavy-Atom Structure of Alaninamide
+									from Rotational Spectroscopy" The Journal of Physical Chemistry, 103 (24), 4659–4663, 1999
 								</li>
 
 							</ul>
