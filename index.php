@@ -44,14 +44,14 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<!-- Custom CSS -->
-		<link href="../css/scrolling-nav.css" rel="stylesheet">
+		<link href="public_hml/css/scrolling-nav.css" rel="stylesheet">
 
 		<!-- Scrolling Nav JavaScript -->
-		<script src="../js/jquery.easing.min.js"></script>
-		<script src="../js/scrolling-nav.js"></script>
+		<script src="public_hml/js/jquery.easing.min.js"></script>
+		<script src="public_hml/js/scrolling-nav.js"></script>
 
 		<!-- MY Custom CSS -->
-		<link rel="stylesheet" href="../css/style.css" type="text/css">
+		<link rel="stylesheet" href="public_hml/css/style.css" type="text/css">
 	</head>
 
 	<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
@@ -123,8 +123,8 @@
 						<div class="col-lg-12">
 
 							<h1 class="section-title"><span>About</span></h1>
-							<h2> Jabari O. Farrar Chemist/Software Developer</h2>
-							<img class="desk img-responsive" src="../images/computerTableCropped.png"/>
+							<h2> Jabari O. Farrar:  Chemist/Software Developer</h2>
+							<img class="desk img-responsive" src="public_hml/images/computerTableCropped.png"/>
 
 							<p id="imgtext">Hello and welcome to my webpage. My name is Jabari Farrar and I have a passion for science.
 								I have a PhD in Analytical Chemistry, specifically surface analysis of heterogeneous polymer
@@ -203,12 +203,12 @@
 								</li>
 
 								<li>Sergey Dubin, Scott Gilje , Kan Wang, Vincent C. Tung, Kitty Cha, Anthony S. Hall,
-									Jabari Farrar , Rupal Varshneya, Yang Yang , Richard B. Kaner, “A One-Step,
+									Jabari Farrar, Rupal Varshneya, Yang Yang , Richard B. Kaner, “A One-Step,
 									Solvothermal Reduction Method for Producing Reduced Graphene Oxide Dispersion
 									in Organic Solvents” ACS Nano, 4(7), 3845-3852, 2010
 								</li>
 
-								<li>Scott Gilje , Sergey Dubin,Aireza Badkhshan, Jabari Farrar , Stephen A.
+								<li>Scott Gilje , Sergey Dubin,Aireza Badkhshan, Jabari Farrar, Stephen A.
 									Danczyk ,Richard B. Kaner, “Photothermal Deoxygenation of Graphene Oxide for
 									Patterning and Distributed Ignition Applications” Advanced Materials, 22(3),
 									419-423, 2010
