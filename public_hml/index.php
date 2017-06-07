@@ -49,6 +49,7 @@
 		<!-- Scrolling Nav JavaScript -->
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/scrolling-nav.js"></script>
+		<script src="js/javascript.js"></script>
 
 		<!-- MY Custom CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
@@ -104,6 +105,9 @@
 							</li>
 							<li>
 								<a href="https://github.com/JabariFarrar/" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="images/resume.pdf" download="resume.pdf">Resum&eacute;</a></li>
 							</li>
 						</ul>
 					</div>
@@ -195,8 +199,19 @@
 
 							<h1 class="section-title"><span> Publications </span></h1>
 
+
+
+
+
+
+
+
 							<ul>
-								<li>Dissertation: Atomic Force Microscopy and X-ray Photoelectron Spectroscopy Data Correlation</li>
+								<li><a href="images/dissertation.pdf" target=_blank> Dissertation </a>: <button id="afm"> Atomic Force Microscopy </button> and <button id="xps"> X-ray Photoelectron Spectroscopy</button> Data Correlation</li>
+
+								<img src="images/afm.gif" id="afmpic">
+								<img src="images/xps.gif" id="xpspic">
+
 
 								<li>Kateryna Artyushkova, Jeffrey Fenton, Jabari Farrar and Julia Fulghum Multitechnique Fusion
 									of Imaging Data for Heterogeneous Materials, Edited by Yufeng Zheng, June 2011
@@ -208,7 +223,7 @@
 									in Organic Solvents” ACS Nano, 4(7), 3845-3852, 2010
 								</li>
 
-								<li>Scott Gilje , Sergey Dubin,Aireza Badkhshan, Jabari Farrar, Stephen A.
+								<li>Scott Gilje, Sergey Dubin,Aireza Badkhshan, Jabari Farrar, Stephen A.
 									Danczyk ,Richard B. Kaner, “Photothermal Deoxygenation of Graphene Oxide for
 									Patterning and Distributed Ignition Applications” Advanced Materials, 22(3),
 									419-423, 2010
@@ -243,18 +258,18 @@
 			<section id="portfolio" class="portfolio section">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-12">
+						<div class="col-md-12">
 							<h1 class="section-title"><span>Portfolio</span></h1>
-							<a target ="_blank" href="https://petRescueAbq.com" class="img-rounded">
+								<div class="col-md-6-offset-3">
+							<img src="images/rescueImage.jpg" class="img-rounded">
 								<!--									<img-->
-							</a>
 							<h2>PetRescueABQ</h2>
 							<p class="portfolio-content">
-								PetRescueAbq is website that allows organizations to post shelter animals that are in critical
-								need for adoption or fostering.  A potential adopter or fosterer can search the website and find an animal
-								that matches their search criteria. PetRescueAbq wants to find a forever-home for every animal
-								posted on the website.
+
+								Pet Rescue ABQ is a web app that gives animals housed in shelters a real chance to live a full and healthy life. By centralizing efforts to adopt out these pets in need and connecting future owners to animal shelters in a seemless and user-friendly format, Pet Rescue ABQ saves the lives of countless pets each day.
+								he mission of Pet Rescue ABQ is to help place homeless pets with caring humans in our community, giving them the best chance possible of finding the "purrfect" forever home.
 							</p>
+								</div>
 						</div>
 					</div>
 				</div>

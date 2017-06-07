@@ -18,7 +18,7 @@ $(window).scroll(function() {
 // 	});
 // });
 
-// below script is taken from: https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
+// below script is taken from: https://paulund.co.unk/smooth-scroll-to-internal-links-with-jquery
 $(document).ready(function() {
 	$('a[href^="#"]').on('click', function(e) {
 		e.preventDefault();
