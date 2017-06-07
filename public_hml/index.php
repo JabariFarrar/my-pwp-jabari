@@ -131,7 +131,7 @@
 							<img class="desk img-responsive" src="images/computerTableCropped.png"/>
 
 							<p id="imgtext">Hello and welcome to my webpage. My name is Jabari Farrar and I have a passion for science.
-								I have a PhD in Analytical Chemistry, specifically surface analysis of heterogeneous polymer
+								I have a PhD in Analytical Chemistry with my research focused in  surface analysis of heterogeneous polymer
 								blends, and I have a background in image analysis. I am a junior web developer that would like to help YOU merge science and technology.
 							</p>
 
@@ -200,7 +200,7 @@
 							<h1 class="section-title"><span> Publications </span></h1>
 
 							<ul>
-								<li><a href="images/dissertation.pdf" target=_blank> Dissertation </a>: <button id="afm"> Atomic Force Microscopy </button> and <button id="xps"> X-ray Photoelectron Spectroscopy</button> Data Correlation</li>
+								<li><a href="images/dissertation.pdf" target=_blank> Dissertation </a>: <button id="afm"> Atomic Force Microscopy </button> and Imaging<button id="xps"> X-ray Photoelectron Spectroscopy</button> Data Correlation</li>
 
 								<img src="images/afm.gif" id="afmpic">
 								<img src="images/xps.gif" id="xpspic">

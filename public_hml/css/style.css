@@ -76,7 +76,8 @@ li {
 	height: auto;
 }
 
-button:focus {
+#afm, #xps{
+
 	outline: none;
 }
 
