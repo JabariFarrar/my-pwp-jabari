@@ -199,13 +199,6 @@
 
 							<h1 class="section-title"><span> Publications </span></h1>
 
-
-
-
-
-
-
-
 							<ul>
 								<li><a href="images/dissertation.pdf" target=_blank> Dissertation </a>: <button id="afm"> Atomic Force Microscopy </button> and <button id="xps"> X-ray Photoelectron Spectroscopy</button> Data Correlation</li>
 
