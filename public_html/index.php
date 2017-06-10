@@ -260,7 +260,7 @@
 							<p class="portfolio-content">
 
 								Pet Rescue ABQ is a web app that gives animals housed in shelters a real chance to live a full and healthy life. By centralizing efforts to adopt out these pets in need and connecting future owners to animal shelters in a seemless and user-friendly format, Pet Rescue ABQ saves the lives of countless pets each day.
-								he mission of Pet Rescue ABQ is to help place homeless pets with caring humans in our community, giving them the best chance possible of finding the "purrfect" forever home.
+								The mission of Pet Rescue ABQ is to help place homeless pets with caring humans in our community, giving them the best chance possible of finding the "purrfect" forever home.
 							</p>
 								</div>
 						</div>
