@@ -35,3 +35,14 @@ Overall very nice work here - I look forward to seeing your project take shape! 
 ## Milestone 2b Feedback
 
 It's looking great, good job! Feedback has been sent via slack.
+
+# Final Feedback
+
+You did an amazing job on PWP Milestone 3. The layout is clean and the format is perfectly setup. Breaking up of the sections using white and gray really helped with the readability of the site. One thing I would recommend is that I would make sure the gray boxes are present in mobile. With the smaller view not having the text broken up is straining on the eyes. I love the animations on the site, It adds a nice touch and really makes the site stand out. You do have a few errors on in your HTML. I would take a look at https://validator.w3.org/nu/?doc=http:%2F%2Fjofarrar.com%2F and try and fix some of  errors. 
+Grade tier IV
+
+Milestone 1 - 20%: Tier IV 40(0.2) = 8
+Milestone 2a - 20%: Tier III 30(0.2) = 6
+Milestone 2b - 10%: Tier IV 40(0.1) = 4
+Milestone 3 - 50%: Tier IV 40(0.5) = 20
+Final: 38/40 = 95%
